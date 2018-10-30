@@ -107,7 +107,7 @@
     romAddress += sizeof(alarmsLength);
     if (alarmsLength > 15) {
       //alarmsLength is not supposed to be >15
-      //this means data is corrupt
+      //this means data is corruptted
       alarmsLength = 0;
       return;
     }
